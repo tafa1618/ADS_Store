@@ -1,0 +1,25 @@
+<svg width="600" height="200" viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00D4FF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0088FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0056D2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="sportTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF6B35;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF3D00;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- ADS Large Text -->
+  <text x="300" y="110" font-family="'Arial Black', sans-serif" font-size="100" font-weight="900" text-anchor="middle" fill="url(#textGrad)">ADS</text>
+  
+  <!-- SPORT Text -->
+  <text x="300" y="155" font-family="'Arial', sans-serif" font-size="40" font-weight="700" text-anchor="middle" fill="url(#sportTextGrad)" letter-spacing="18">SPORT</text>
+  
+  <!-- Underline accent -->
+  <rect x="180" y="165" width="240" height="4" rx="2" fill="url(#textGrad)"/>
+  
+  <!-- Small tagline -->
+  <text x="300" y="185" font-family="'Arial', sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#9AA0B8" letter-spacing="6">EXCELLENCE SPORTIVE</text>
+</svg>
