@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="ADS Sport - Votre boutique d'équipements sportifs de qualité. Découvrez notre large gamme de produits pour tous les sports.">
+    <meta name="keywords" content="équipements sportifs, sport, fitness, running, musculation, ADS Sport">
+    <meta name="author" content="ADS Sport">
+    <title>ADS Sport - Équipements Sportifs de Qualité</title>
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="ADS Sport - Équipements Sportifs de Qualité">
+    <meta property="og:description" content="Votre boutique d'équipements sportifs de qualité pour tous les sports">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&family=Bebas+Neue&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="logo.svg" alt="ADS Sport Logo" class="logo-img">
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li><a href="#produits" class="nav-link">Produits</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#a-propos" class="nav-link">À Propos</a></li>
+                <li><a href="#contact" class="nav-link cta-nav">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="accueil">
+        <div class="hero-background">
+            <div class="gradient-overlay"></div>
+            <div class="particles"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-highlight">Équipez-vous</span> pour la
+                    <span class="title-accent">Performance</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Votre boutique locale d'équipements sportifs premium.<br>
+                    Qualité professionnelle, service personnalisé.
+                </p>
+                <div class="hero-cta">
+                    <a href="#produits" class="btn btn-primary">
+                        <span>Découvrir nos produits</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Nous contacter</span>
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>500+</h3>
+                        <p>Produits</p>
+                    </div>
+                    <div class="stat">
+                        <h3>10+</h3>
+                        <p>Années d'expérience</p>
+                    </div>
+                    <div class="stat">
+                        <h3>2000+</h3>
+                        <p>Clients satisfaits</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll</p>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories" id="produits">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nos Catégories</h2>
+                <p class="section-subtitle">Des équipements pour tous les sports</p>
+            </div>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="card-icon">
+                        <i class="fas fa-running"></i>
+                    </div>
+                    <h3>Running & Athlétisme</h3>
+                    <p>Chaussures, vêtements et accessoires pour la course à pied et l'athlétisme</p>
+                    <a href="#contact" class="card-link">Explorer <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="category-card">
+                    <div class="card-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3>Fitness & Musculation</h3>
+                    <p>Équipements de musculation, poids, tapis de yoga et accessoires fitness</p>
+                    <a href="#contact" class="card-link">Explorer <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="category-card">
+                    <div class="card-icon">
+                        <i class="fas fa-futbol"></i>
+                    </div>
+                    <h3>Sports Collectifs</h3>
+                    <p>Football, basketball, volleyball - tout pour votre équipe</p>
+                    <a href="#contact" class="card-link">Explorer <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="category-card">
+                    <div class="card-icon">
+                        <i class="fas fa-swimmer"></i>
+                    </div>
+                    <h3>Sports Aquatiques</h3>
+                    <p>Natation, plongée et sports nautiques - équipements de qualité</p>
+                    <a href="#contact" class="card-link">Explorer <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="category-card">
+                    <div class="card-icon">
+                        <i class="fas fa-bicycle"></i>
+                    </div>
+                    <h3>Cyclisme</h3>
+                    <p>Vélos, casques, vêtements et accessoires pour cyclistes</p>
+                    <a href="#contact" class="card-link">Explorer <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="category-card">
+                    <div class="card-icon">
+                        <i class="fas fa-table-tennis"></i>
+                    </div>
+                    <h3>Sports de Raquette</h3>
+                    <p>Tennis, badminton, squash - raquettes et équipements</p>
+                    <a href="#contact" class="card-link">Explorer <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nos Services Premium</h2>
+                <p class="section-subtitle">Bien plus qu'une simple boutique</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Conseil Personnalisé</h3>
+                    <p>Notre équipe d'experts vous guide dans le choix de vos équipements selon vos besoins et objectifs
+                        sportifs.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Livraison Rapide</h3>
+                    <p>Livraison express dans la région. Commandez aujourd'hui, recevez demain.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Garantie Qualité</h3>
+                    <p>Tous nos produits sont garantis. Satisfaction client à 100% ou remboursement.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Service Après-Vente</h3>
+                    <p>Réparations, entretien et support technique pour tous vos équipements sportifs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-us" id="a-propos">
+        <div class="container">
+            <div class="why-us-content">
+                <div class="why-us-text">
+                    <h2>Pourquoi Choisir ADS Sport ?</h2>
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>Expertise Locale</h3>
+                            <p>Une équipe passionnée qui connaît les besoins des sportifs locaux</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>Marques Premium</h3>
+                            <p>Sélection rigoureuse des meilleures marques du marché</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>Prix Compétitifs</h3>
+                            <p>Meilleur rapport qualité-prix de la région</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>Service Personnalisé</h3>
+                            <p>Nous prenons le temps de comprendre vos besoins spécifiques</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="why-us-image">
+                    <div class="image-card">
+                        <div class="image-placeholder">
+                            <i class="fas fa-trophy"></i>
+                            <p>Excellence & Performance</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contactez-Nous</h2>
+                <p class="section-subtitle">Nous sommes là pour vous aider</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Adresse</h3>
+                            <p>Votre adresse ici<br>Ville, Code Postal</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Téléphone</h3>
+                            <p>+33 X XX XX XX XX</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Email</h3>
+                            <p>contact@adssport.fr</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Horaires</h3>
+                            <p>Lun-Sam: 9h-19h<br>Dimanche: Fermé</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Nom complet</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" required>
+                            <label for="phone">Téléphone</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span>Envoyer le message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="logo.png" alt="ADS Sport" class="footer-logo">
+                    <p class="footer-description">
+                        Votre partenaire de confiance pour tous vos équipements sportifs.
+                        Qualité, expertise et service personnalisé.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#produits">Produits</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#a-propos">À Propos</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Catégories</h3>
+                    <ul>
+                        <li><a href="#produits">Running</a></li>
+                        <li><a href="#produits">Fitness</a></li>
+                        <li><a href="#produits">Sports Collectifs</a></li>
+                        <li><a href="#produits">Cyclisme</a></li>
+                        <li><a href="#produits">Natation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Recevez nos offres exclusives et nouveautés</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Votre email" required>
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ADS Sport. Tous droits réservés.</p>
+                <div class="footer-links">
+                    <a href="#">Mentions légales</a>
+                    <a href="#">Politique de confidentialité</a>
+                    <a href="#">CGV</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
