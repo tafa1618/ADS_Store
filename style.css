@@ -59,12 +59,28 @@ body {
     background: var(--bg-body);
     color: var(--text-main);
     line-height: 1.6;
+    overflow-x: hidden;
+    /* Prevent horizontal scroll globally */
+    width: 100%;
+}
+
+html {
+    overflow-x: hidden;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 var(--spacing-md);
+    width: 100%;
+}
+
+/* Mobile Container Adjustment */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 1rem;
+        /* Smaller padding on mobile */
+    }
 }
 
 /* Navigation - Clean White */
