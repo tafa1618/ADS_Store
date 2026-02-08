@@ -2,88 +2,44 @@
 
 [![Deploy to GitHub Pages](https://github.com/tafa1618/ADS_Store/actions/workflows/deploy.yml/badge.svg)](https://github.com/tafa1618/ADS_Store/actions/workflows/deploy.yml)
 
-Site web moderne et professionnel pour ADS Sport - votre boutique d'équipements sportifs de qualité.
+Site web e-commerce professionnel pour ADS Sport - votre expert en équipements sportifs.
 
 ## 🚀 Démo
 
 Visitez le site : [https://tafa1618.github.io/ADS_Store/](https://tafa1618.github.io/ADS_Store/)
 
-## ✨ Fonctionnalités
+## ✨ Nouveau Design "Classique"
 
-- ⚡ Design moderne avec animations fluides
-- 🎨 Glassmorphism et gradients dynamiques
-- 📱 100% Responsive (Mobile, Tablette, Desktop)
-- 🎯 SEO optimisé
-- 🌙 Prêt pour le mode sombre
-- 🚀 Performance optimale
-- ♿ Accessible
+- 🛍️ **Style E-commerce Épuré** : Fond blanc, lisibilité maximale, code couleur professionnel.
+- � **Focus Sports Co** : Mis en avant suite au choix du logo.
+- � **Section Produits Phares** : Nouvelle grille de produits avec prix et boutons d'action.
+- � **Mobile First** : Navigation optimisée pour smartphones.
 
 ## 🛠️ Technologies
 
 - **HTML5** - Structure sémantique
-- **CSS3** - Design moderne avec variables CSS
-- **JavaScript Vanilla** - Interactions et animations
-- **GitHub Pages** - Hébergement gratuit
+- **CSS3** - Design system "Light Mode"
+- **JavaScript Vanilla** - Interactions légères
+- **GitHub Pages** - Hébergement automatique
 
-## 📦 Structure
+## 🎨 Palette de Couleurs
 
-```
-ADS_Store/
-├── index.html          # Page principale
-├── style.css           # Styles et design system
-├── script.js           # Interactions JavaScript
-├── logo.svg            # Logo ADS Sport
-└── .github/
-    └── workflows/
-        └── deploy.yml  # Déploiement automatique
-```
-
-## 🎨 Design System
-
-### Couleurs
-- **Primary:** Cyan électrique (#00D4FF)
-- **Secondary:** Orange vibrant (#FF6B35)
-- **Accent:** Jaune (#FFD23F)
-- **Dark:** Bleu très foncé (#0A0E27)
-
-### Typographie
-- **Display:** Bebas Neue
-- **Body:** Inter
+- **Primary:** Bleu Royal (#0056D2) - Confiance et Performance
+- **Secondary:** Orange (#FF5722) - Action et Conversion
+- **Background:** Blanc / Gris très clair (#F8F9FA)
+- **Text:** Gris foncé (#333333) - Lisibilité optimale
 
 ## 🚀 Déploiement
 
-Le site se déploie automatiquement sur GitHub Pages à chaque push sur la branche `main`.
+Le site se déploie automatiquement via la branche `gh-pages`.
 
-### Configuration GitHub Pages
+### Configuration Rapide
 
 1. Allez dans **Settings** > **Pages**
-2. Source: **GitHub Actions**
-3. Le site sera disponible à : `https://tafa1618.github.io/ADS_Store/`
-
-## 🔄 Évolution Prévue
-
-Ce site est le **Sprint 1** d'un projet plus large :
-
-### Phase 2 : E-commerce (Headless WordPress + Next.js)
-- Backend WordPress avec WooCommerce
-- Frontend Next.js moderne
-- API-first architecture
-
-### Phase 3-4 : Digital Twin
-- Automatisation SEO avec IA
-- Génération de campagnes Facebook Ads
-- Optimisation Google Ads
-- Dashboard analytics intelligent
-
-### Phase 5 : White-Label
-- Système rebrandable
-- Multi-tenant
-- Vendable à d'autres commerces
+2. Source: **Deploy from a branch**
+3. Branch: **gh-pages** / **root**
+4. Save
 
 ## 📝 Licence
 
 © 2026 ADS Sport. Tous droits réservés.
-
-## 🤝 Contact
-
-Pour toute question, contactez-nous via le formulaire sur le site web.
